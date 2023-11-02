@@ -19,5 +19,5 @@ public class UserController {
 	@ResponseBody
 	public List<Users> getAllUsers() {
 		return usersService.getAllUsers();
-	}
+	} 
 }
